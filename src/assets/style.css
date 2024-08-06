@@ -20,8 +20,6 @@
 }
 
 body {
-  background-color: var(--background-color);
-  color: var(--foreground-color);
   font-family:
     ui-sans-serif,
     system-ui,
@@ -37,6 +35,12 @@ body {
     Segoe UI Emoji,
     Segoe UI Symbol,
     Noto Color Emoji;
+    
+    background-image: url('/TOUYA_e011c_spoiler_light.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #wrapper {
